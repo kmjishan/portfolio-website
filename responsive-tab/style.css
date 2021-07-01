@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+}
+
+.tab {
+	background: yellow;
+}
+
+.tab:after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+.tab ul {
+	margin: 0;
+	list-style: none;
+}
+
+.tab ul li {
+	float: left;
+	position: relative;
+}
+
+.tab ul li a {
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+
+.tab ul li:hover a {
+	background: black;
+	Color: white;
+}
+
+.tab ul .current a {
+	background: black;
+	Color: white;
+}
+
+
+/*****sub-menu*****/
+
+.tab ul ul {
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+	z-index: 9999;
+}
+
+
+.tab ul ul li {
+	float: none;
+}
+
+.tab ul li:hover ul {
+	display: block;
+}
+
+
+/*****Responsive*****/
+
+@media all and (max-width: 786px) {
+	.tab ul li {
+	float: none;
+	}
+	.tab ul {
+		padding: 0;
+	}
+	
+	.tab ul ul {
+		display: block;
+		position: inherit;
+	}
+	.tab ul li:hover a {
+	background: transparent;
+	Color: black;
+	}
+	
+	.tab ul ul li a:before {
+		margin-left: 20px;
+		content: ' - ';
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+@media all and (max-width: 768px) {
+	.column {
+		width: 40%;
+		margin-bottom: 20px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.column {
+		width: 98%;
+	}
+}

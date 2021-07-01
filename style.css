@@ -1,0 +1,294 @@
+body {
+	margin: 0;
+	font-family: Segoe UI;
+}
+
+.container {
+	width: 60%;
+	margin: auto;
+}
+
+.header-area {
+	background-color: #23232e;
+	text-align: center;
+	color: white;
+	padding: 60px 0 30px 0;
+}
+
+.header-area a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header-area h2 {
+	text-transform: uppercase;
+	font-size: 50px;
+	margin-top: 100px;
+}
+.logo-area img {
+	width: 90px;
+	height: auto;
+}
+
+.header-area p {
+	font-size: 12px;
+}
+
+.next {
+	margin-top: 150px;
+}
+
+.next i {
+	border: 1px solid #ffffff;
+	padding: 10px;
+	font-size: 12px;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+}
+
+
+/****** about ******/
+
+.about {
+	padding: 50px 0;
+	background-image: url('images/background.png');
+	background-size: cover;
+}
+
+.content p {
+	text-align: center;
+	color: #464b4f;
+	font-size: 20px;
+}
+
+.about h2 {
+	text-align: center;
+	color: #464b4f;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.about-us h4 {
+	text-transform: uppercase;
+	color: #464b4f;
+}
+
+.about-us {
+	overflow: hidden;
+	width: 90%;
+	margin: auto;
+}
+
+.column p {
+	color: #888a8b;
+	font-size: 13px;
+}
+
+.column {
+	width: 31.33%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+}
+
+/*****protfolio *****/
+
+.work-column img {
+	width: 100%;
+	height: auto;
+}
+
+
+.portfolio {
+	background-color: #23232e;
+	padding: 30px 0;
+	overflow: hidden;
+	color: #ffffff;
+}
+
+.portfolio h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+.categories ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+} 
+
+
+.categories ul li {
+	display: inline;
+	margin: 0 10px;
+	font-size: 10px;
+}
+
+.categories ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: capitalize;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	padding: 2px 0;
+}
+
+.portfolio .categories {
+	margin: 20px 0 40px 0;
+}
+
+.categories ul li:hover a {
+	border-bottom: 2px solid #7b77c9;
+}
+.categories ul .current a {
+	border-bottom: 2px solid #7b77c9;
+}
+
+.work-column {
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.work-column h3 {
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+
+.work-column a {
+	color: #818baa;
+	text-decoration: none;
+	font-size: 15px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+
+
+.button {
+	text-align: center;
+}
+
+.button a {
+	color: #ffffff;
+	background: #7b77c9;
+	padding: 15px 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	text-transform: capitalize;
+	margin: 30px 0;
+}
+
+/*****photography section*****/
+
+.photography h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	margin-bottom: 0;
+	color: #464b4f;
+}
+
+.photography p {
+	color:#888a8b;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+.personalized {
+	width: 60%;
+	margin: auto;
+}
+
+.photography {
+	padding: 30px 0;
+	background-image: url('images/background.png');
+	background-size: cover;
+}
+
+.blue-column img {
+	width: 100%;
+	height: auto;
+}
+.blue-column .column {
+	margin-bottom: 5px;
+}
+
+.photography .button {
+	margin-top: 30px;
+}
+
+/*****subscribe*****/
+
+.subscribe {
+	background: #23232e;
+	padding: 200px 0;
+	text-align: center;
+}
+
+
+
+.subscribe p {
+	margin: 50px 0;
+	color: #ffffff;
+	font-weight: 20px;
+}
+
+.subscribe input[type=text] {
+	padding: 20px 150px 20px 20px;
+	border: none;
+	border-radius: 5px;
+	color: #c8c8c8;
+}
+.subscribe input[type=submit] {
+	padding: 20px 60px;
+	border: none;
+	border-radius: 5px;
+	background: #7b77c9;
+	color: #ffffff;
+	font-size: 15px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+
+
+/*****footer*****/
+
+.footer-area {
+	padding: 80px 0;
+	background-image: url('images/background.png');
+	text-align: center;
+}
+
+.footer-area ul {
+	padding: 0;
+	margin: 0 0 80px 0;
+}
+
+.footer-area ul li {
+	list-style: none;
+	display: inline;
+	margin: 0 15px;
+	font-size: 40px;
+}
+
+.footer-area ul li a {
+	text-decoration: none;
+	color: #c8c8c8;
+}
+
+
+.copyright p {
+	color: #666666;
+}
+
